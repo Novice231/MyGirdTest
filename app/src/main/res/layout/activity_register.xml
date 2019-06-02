@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:useDefaultMargins="true"
+    android:columnCount="4" >
+
+    <TextView
+        android:layout_columnSpan="4"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/tv5"
+        android:textSize="20dip"/>
+
+    <TextView
+        android:text="@string/tv2"
+        android:layout_gravity="right" />
+
+    <EditText
+        android:id="@+id/et1"
+        android:ems="8"
+        android:layout_columnSpan="2"/>
+
+    <TextView
+        android:text="@string/tv3"
+        android:layout_column="0"
+        android:layout_gravity="right"/>
+
+    <EditText
+        android:id="@+id/et2"
+        android:ems="8"
+        android:layout_columnSpan="2" />
+
+
+    <TextView
+        android:text="@string/tv6"
+        android:layout_column="0"
+        android:layout_gravity="right"/>
+
+    <RadioGroup
+            android:id="@+id/RadioGroup01"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:orientation="horizontal"
+            android:layout_columnSpan="2" >
+
+        <RadioButton
+            android:id="@+id/RadioButton01"
+            android:layout_width="92dp"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:columnCount="1"
+            android:rowCount="4"
+            android:text="@string/rb1"/>
+
+        <RadioButton
+            android:id="@+id/RadioButton02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:columnCount="2"
+            android:rowCount="4"
+            android:text="@string/rb2"/>
+    </RadioGroup>
+
+
+    <TextView
+        android:id="@+id/isused_label"
+        android:text="@string/tv7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_row="4"
+        android:layout_column="0">
+    </TextView>
+
+    <RadioGroup
+        android:id="@+id/RadioGroup02"
+        android:layout_width="183dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_columnSpan="2"
+        android:orientation="horizontal"
+        android:rowCount="5">
+
+        <RadioButton
+            android:id="@+id/RadioButton03"
+            android:layout_width="89dp"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:columnCount="1"
+            android:rowCount="5"
+            android:text="@string/rb3"/>
+
+        <RadioButton
+            android:id="@+id/RadioButton04"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:columnCount="2"
+            android:rowCount="5"
+            android:text="@string/rb4"/>
+    </RadioGroup>
+
+
+    <Button
+        android:id="@+id/btn5"
+        android:text="@string/btn5"
+        android:layout_column="1"
+        android:layout_gravity="fill_horizontal"/>
+
+    <Button
+        android:id="@+id/btn6"
+        android:text="@string/btn6"
+        android:layout_column="2"
+        android:layout_gravity="fill_horizontal"/>
+
+</GridLayout>

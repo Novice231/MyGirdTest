@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">网格操作示例</string>
+    <string name="tv1">王豪杰的网格实验</string>
+    <string name="tv2">用户名：</string>
+    <string name="tv3">密码：</string>
+    <string name="tv4">信息显示:</string>
+    <string name="tv5">注册界面</string>
+
+    <string name="tv6">性别：</string>
+    <string name="tv7">是否有效：</string>
+
+    <string name="btn1">清空</string>
+    <string name="btn2">登陆</string>
+    <string name="btn3">退出</string>
+
+    <string name="btn4">注册</string>
+
+    <string name="btn5">确定</string>
+    <string name="btn6">返回</string>
+
+    <string name="title_activity_result">ResultActivity</string>
+
+
+    <string name="rb1">男</string>
+    <string name="rb2">女</string>
+
+    <string name="rb3">是</string>
+    <string name="rb4">否</string>
+
+
+</resources>
